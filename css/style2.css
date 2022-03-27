@@ -1,0 +1,369 @@
+.encabezado{
+    display: flex;
+    background-color:  #1CD1B0;
+    ;
+    width: 1024px;
+    height: 38px;
+    position: absolute;
+}
+.descuento{
+    height: 18px;
+    width: 111px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top: 10px;
+    left: 10px;
+    font-weight: 700px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.caja-titulo{
+
+    position: absolute;
+    display: flex;
+    height: 101px;
+    width: 1024px;
+    background-color: #00669F;
+    top: 38px;
+
+}
+.titulo{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    padding: 28px;
+    height: 47px;
+    width: 128px;
+}
+
+
+
+.contenedor{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+   
+    width: 300px;
+    height: 529px;
+    top: 293px;
+    bottom: 202px;
+    left: 32px;
+
+
+ }
+
+ .fondobatman{
+    
+    position: absolute;
+    display: flex;
+    height: 193px;
+    width: 300px;
+    
+
+    
+    position: top;  
+    border-radius: 5px;
+ }
+ .nombre{
+    position: absolute;
+    height: 35px;
+    width: 122px;
+    top: 300px;
+    
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ .perfil{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+   
+    top: 350px;
+    
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+ .foto{
+     position: absolute;
+     width: 120px;
+     height: 118px;
+     border-radius: 50%;
+     
+     top: 140px;
+     
+     z-index: 10;
+ }
+ .botonazul{
+     position: absolute;
+     background-color: #00669F;
+     color: #fafcfd;
+     width: 128.78px;
+     height: 48.52px; 
+     top: 460px;
+     text-align: center;
+     font-size: 15px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+ }
+ .leyendaboton{
+     position: absolute;
+     width: 56px;
+     height: 18px;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     color: #fafcfd;
+     top: 470px;
+
+ }
+ .corazon{
+    position: absolute;
+    height: 26.25px;
+    width: 30px;
+    z-index: 10;
+    top: 15.88px;
+    left: 21px;
+
+}
+
+ .contenedor2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+    width: 300px;
+    height: 529px;
+    top: 293px;
+    bottom: 202px;
+    left: 362px;
+    right: 362px;
+
+
+ }
+
+ .fondoharley{
+    
+    position: absolute;
+    display: flex;
+    height: 193px;
+    width: 300px;
+    
+
+    
+    position: top;  
+    border-radius: 5px;
+ }
+ .nombre2{
+    position: absolute;
+    height: 35px;
+    width: 180px;
+    top: 300px;
+    
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ .perfil2{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+   
+    top: 350px;
+    
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+ }
+ .foto2{
+     position: absolute;
+     width: 120px;
+     height: 118px;
+     border-radius: 50%;
+     
+     top: 140px;
+     
+     z-index: 10;
+ }
+ .botonazul2{
+     position: absolute;
+     background-color: #00669F;
+     color: #fafcfd;
+     width: 128.78px;
+     height: 48.52px; 
+     top: 460px;
+     text-align: center;
+     font-size: 15px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+ }
+ .leyendaboton2{
+     position: absolute;
+     width: 56px;
+     height: 18px;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     color: #fafcfd;
+     top: 470px;
+
+ }
+ .corazon{
+    position: absolute;
+    height: 26.25px;
+    width: 30px;
+    z-index: 10;
+    top: 15.88px;
+    left: 21px;
+
+}
+
+ .contenedor3{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    
+    
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   
+    width: 300px;
+    height: 529px;
+    top: 293px;
+    bottom: 202px;
+    left: 692px;
+
+
+ }
+
+ .fondobatman2{
+    
+    position: absolute;
+    display: flex;
+    height: 193px;
+    width: 300px;
+    
+
+    
+    position: top;  
+    border-radius: 5px;
+ }
+ .nombre3{
+    position: absolute;
+    height: 35px;
+    width: 122px;
+    top: 300px;
+    
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ .perfil{
+    position: absolute;
+    width: 267px;
+    height: 113px;
+   
+    top: 350px;
+    
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+ }
+ .foto{
+     position: absolute;
+     width: 120px;
+     height: 118px;
+     border-radius: 50%;
+     
+     top: 140px;
+     
+     z-index: 10;
+ }
+ .botonazul{
+     position: absolute;
+     background-color: #00669F;
+     color: #fafcfd;
+     width: 128.78px;
+     height: 48.52px; 
+     top: 460px;
+     text-align: center;
+     font-size: 15px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+ }
+ .leyendaboton{
+     position: absolute;
+     width: 56px;
+     height: 18px;
+     text-align: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 15px;
+     color: #fafcfd;
+     top: 470px;
+
+ }
+ .corazon{
+     position: absolute;
+     height: 26.25px;
+     width: 30px;
+     z-index: 10;
+     top: 15.88px;
+     left: 21px;
+
+ }
+ .pie{
+     position: absolute;
+     background-color: #00669F;
+     ;
+     width: 1024px;
+     height: 51px;
+     bottom: 0px;
+     top: 900px;
+
+ }
+ .derechos{
+     position: absolute;
+     width: 337px;
+     height: 19;
+     left: 16px;
+     top: 910px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-size: 16px;
+     color: #fafcfd;
+     z-index: 9;
+ }
+ }
+ 
